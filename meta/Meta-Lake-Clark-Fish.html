@@ -362,43 +362,85 @@ Real Data</a></p>
 <hr />
 <div id="info" class="section level2">
 <h2>Info</h2>
-<p><strong>Paper:</strong> Estimating the ‘Missing’ Houses of
-Silchester</p>
-<p><strong>Authors:</strong> Scott Ortman and John Hanson</p>
-<p><strong>Date:</strong> November 24, 2023</p>
-<p><strong>Link:</strong> <a href="https://www.cambridge.org/core/journals/britannia/article/estimating-the-missing-houses-of-silchester/C0B137A161BB338EC31D4ACBC9F4DCDE">https://www.cambridge.org/core/journals/britannia/article/estimating-the-missing-houses-of-silchester/C0B137A161BB338EC31D4ACBC9F4DCDE</a></p>
+<p><strong>Source:</strong> Mercury Concentrations in Resident Lake Fish
+Sampled from Lake Clark National Park and Preserve in 2019 and 2020</p>
+<p><strong>Authors:</strong> Department of the Interior, National Park
+Service</p>
+<p><strong>Date:</strong> Data from 2019-2020</p>
+<p><strong>Link:</strong> <a href="https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre">https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre</a></p>
 <div id="abstract" class="section level5">
 <h5>Abstract</h5>
-<p>Estimating the numbers of residences, and thus the residential
-densities and populations, of ancient settlements remains a significant
-problem. This is true even for ‘greenfield’ sites due to the
-differential visibility of structures made of different materials in
-aerial and geophysical surveys. In this paper, we take advantage of
-statistical relationships among elements of the built environments of
-Roman cities in Britannia and more broadly across the Empire, to
-estimate the total number of buildings, total population and population
-density of Silchester. The results indicate that the current site plan
-dramatically under-represents these values. We also consider the
-implications of our results for broader discussions of urbanism in
-Britannia.</p>
+<p>These data were collected as part of the Southwest Alaska Inventory
+and Monitoring Network (SWAN) freshwater contaminants protocol. The
+protocol outlines a framework for monitoring mercury (Hg) concentrations
+in resident lake fish within SWAN parks. The primary goal of this
+monitoring is to understand the spatial differences, temporal trends,
+and health ramifications of Hg contamination in resident lake fish.
+Monitoring relies on total Hg in fish axial muscle as an indicator of
+methyl Hg exposure. It targets four high-priority lakes which vary in
+size, depth, wetland cover, glacial influence, and Hg concentration.
+These lakes are located in two parks: Lake Clark National Park and
+Preserve (LACL) and Katmai National Park and Preserve (KATM). The focal
+species is lake trout (Salvelinus namaycush), a widespread, long lived,
+top predator in SWAN lakes. However, if other species are sampled as
+bycatch, they may be retained and analyzed if they represent
+species-specific data gaps in Hg concentration. Two broad types of data
+are generated from this protocol. The first type includes observations
+and measurements that are recorded while sampling and processing fish
+(e.g., length, weight, gender). The second type includes results of
+analyses performed by contract laboratories (e.g., age, total Hg). This
+particular dataset includes those two broad types of data for 49 fish
+sampled in 2019 and 2020 from 2 lakes in LACL: Lake Clark and Kijik
+Lake. Of those 49 fish, 40 were lake trout, 6 were burbot (Lota lota), 2
+were Arctic grayling (Thymallus arcticus), and 1 was Arctic char
+(Salvelinus alpinus).</p>
 </div>
 <div id="format" class="section level5">
 <h5>Format</h5>
-<p>Data frame with 51 and the following variables:</p>
+<p>Data frame with 49 cases and the following variables:</p>
 <ul>
-<li><strong>Key:</strong> Site id from paper</li>
-<li><strong>AncientToponym:</strong> Site name</li>
-<li><strong>Province:</strong> The province</li>
-<li><strong>ProvinceCombined:</strong> Added to color points by
-Britannia, Other, and Silchester to match graph in paper</li>
-<li><strong>SiteAreaHa:</strong> Site area in hectares</li>
-<li><strong>SampeAreaHa:</strong> Area of site sampled in hectares</li>
-<li><strong>NumPropertiesInSample:</strong> Number of properties in the
-sample area</li>
-<li><strong>EstimatedNumProperties:</strong> Number of properties in
-sample area scaled to the entire site</li>
-<li><strong>lnSiteArea:</strong> Ln() of SiteAreaHA</li>
-<li><strong>lnNumProp:</strong> Ln() of EstimatedNumProperties</li>
+<li><strong>Park: </strong> National park where a given fish was
+collected.</li>
+<li><strong>Lake: </strong> Lake where a given fish was collected.</li>
+<li><strong>Sample_ID_NPS: </strong> NPS sample identification code for
+a given fish.</li>
+<li><strong>Sample_ID_USGS: </strong> USGS sample identification code
+for a given fish.</li>
+<li><strong>Species: </strong> Species common name for a given
+fish.</li>
+<li><strong>Date_Collected: </strong> Date when a given fish was
+caught.</li>
+<li><strong>Date_Received: </strong> The date received is tracked
+because some samples are occasionally sent and/or analyzed more than
+once (e.g., when they thaw during transport).</li>
+<li><strong>Date_Analyzed: </strong> Date when a given fish sample was
+analyzed by the USGS Mercury Research Lab for total Hg.</li>
+<li><strong>Latitude: </strong> Latitude of the site where a given fish
+was collected.</li>
+<li><strong>Longitude: </strong> Longitude of the site where a given
+fish was collected.</li>
+<li><strong>Length: </strong> Total length of a given fish.</li>
+<li><strong>Gender: </strong> Gender of a given fish.</li>
+<li><strong>Weight: </strong> Weight of a given fish.</li>
+<li><strong>Age: </strong> Age of a given fish.</li>
+<li><strong>Total_Hg: </strong> Total mercury concentration in the axial
+muscle tissue sampled from a given fish in Nanograms per gram dry weight
+(ng/g, dw).</li>
+<li><strong>Methyl_Hg: </strong> Methylmercury concentration in the
+axial muscle tissue sampled from a given fish in Nanograms per gram dry
+weight (ng/g, dw).</li>
+<li><strong>Moisture: </strong> Percent moisture in the axial muscle
+tissue sampled from a given fish.</li>
+<li><strong>del_13C: </strong> Carbon stable isotope ratio in the axial
+muscle tissue sampled from a given fish. This is a raw value,
+uncorrected for fish lipid content in Parts per thousand.</li>
+<li><strong>Total_C: </strong> Total carbon in the axial muscle tissue
+sampled from a given fish in Micrograms (µg).</li>
+<li><strong>del_15N: </strong> Nitrogen stable isotope ratio in the
+axial muscle tissue sampled from a given fish in Parts per
+thousand.</li>
+<li><strong>Total_N: </strong> Total nitrogen in the axial muscle tissue
+sampled from a given fish in Micrograms (µg).</li>
 </ul>
 </div>
 </div>
