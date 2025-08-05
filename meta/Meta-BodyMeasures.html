@@ -362,85 +362,87 @@ with Real Data</a></p>
 <hr />
 <div id="info" class="section level2">
 <h2>Info</h2>
-<p><strong>Source:</strong> Mercury Concentrations in Resident Lake Fish
-Sampled from Lake Clark National Park and Preserve in 2019 and 2020</p>
-<p><strong>Authors:</strong> Department of the Interior, National Park
-Service</p>
-<p><strong>Date:</strong> Data from 2019-2020</p>
-<p><strong>Link:</strong> <a href="https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre">https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre</a></p>
+<p><strong>Paper:</strong> Exploring Relationships in Body
+Dimensions</p>
+<p><strong>Authors:</strong> Peterson, L.J, Johnson, R.W., Kerk,
+C.J.</p>
+<p><strong>Date:</strong> November 2, 2003</p>
+<p><strong>Link:</strong> <a href="https://jse.amstat.org/v11n2/datasets.heinz.html">https://jse.amstat.org/v11n2/datasets.heinz.html</a></p>
 <div id="abstract" class="section level5">
 <h5>Abstract</h5>
-<p>These data were collected as part of the Southwest Alaska Inventory
-and Monitoring Network (SWAN) freshwater contaminants protocol. The
-protocol outlines a framework for monitoring mercury (Hg) concentrations
-in resident lake fish within SWAN parks. The primary goal of this
-monitoring is to understand the spatial differences, temporal trends,
-and health ramifications of Hg contamination in resident lake fish.
-Monitoring relies on total Hg in fish axial muscle as an indicator of
-methyl Hg exposure. It targets four high-priority lakes which vary in
-size, depth, wetland cover, glacial influence, and Hg concentration.
-These lakes are located in two parks: Lake Clark National Park and
-Preserve (LACL) and Katmai National Park and Preserve (KATM). The focal
-species is lake trout (Salvelinus namaycush), a widespread, long lived,
-top predator in SWAN lakes. However, if other species are sampled as
-bycatch, they may be retained and analyzed if they represent
-species-specific data gaps in Hg concentration. Two broad types of data
-are generated from this protocol. The first type includes observations
-and measurements that are recorded while sampling and processing fish
-(e.g., length, weight, gender). The second type includes results of
-analyses performed by contract laboratories (e.g., age, total Hg). This
-particular dataset includes those two broad types of data for 49 fish
-sampled in 2019 and 2020 from 2 lakes in LACL: Lake Clark and Kijik
-Lake. Of those 49 fish, 40 were lake trout, 6 were burbot (Lota lota), 2
-were Arctic grayling (Thymallus arcticus), and 1 was Arctic char
-(Salvelinus alpinus).</p>
+<p>Body girth measurements and skeletal diameter measurements, as well
+as age, weight, height and gender, are given for 507 physically active
+individuals - 247 men and 260 women. These data can be used to provide
+statistics students practice in the art of data analysis. Such analyses
+range from simple descriptive displays to more complicated multivariate
+analyses such as multiple regression and discriminant analysis.</p>
 </div>
 <div id="format" class="section level5">
 <h5>Format</h5>
-<p>Data frame with 49 cases and the following variables:</p>
+<p>Data frame with 507 cases (247 men, 260 women) and the following
+variables:</p>
 <ul>
-<li><strong>Park: </strong> National park where a given fish was
-collected.</li>
-<li><strong>Lake: </strong> Lake where a given fish was collected.</li>
-<li><strong>Sample_ID_NPS: </strong> NPS sample identification code for
-a given fish.</li>
-<li><strong>Sample_ID_USGS: </strong> USGS sample identification code
-for a given fish.</li>
-<li><strong>Species: </strong> Species common name for a given
-fish.</li>
-<li><strong>Date_Collected: </strong> Date when a given fish was
-caught.</li>
-<li><strong>Date_Received: </strong> The date received is tracked
-because some samples are occasionally sent and/or analyzed more than
-once (e.g., when they thaw during transport).</li>
-<li><strong>Date_Analyzed: </strong> Date when a given fish sample was
-analyzed by the USGS Mercury Research Lab for total Hg.</li>
-<li><strong>Latitude: </strong> Latitude of the site where a given fish
-was collected.</li>
-<li><strong>Longitude: </strong> Longitude of the site where a given
-fish was collected.</li>
-<li><strong>Length: </strong> Total length of a given fish.</li>
-<li><strong>Gender: </strong> Gender of a given fish.</li>
-<li><strong>Weight: </strong> Weight of a given fish.</li>
-<li><strong>Age: </strong> Age of a given fish.</li>
-<li><strong>Total_Hg: </strong> Total mercury concentration in the axial
-muscle tissue sampled from a given fish in Nanograms per gram dry weight
-(ng/g, dw).</li>
-<li><strong>Methyl_Hg: </strong> Methylmercury concentration in the
-axial muscle tissue sampled from a given fish in Nanograms per gram dry
-weight (ng/g, dw).</li>
-<li><strong>Moisture: </strong> Percent moisture in the axial muscle
-tissue sampled from a given fish.</li>
-<li><strong>del_13C: </strong> Carbon stable isotope ratio in the axial
-muscle tissue sampled from a given fish. This is a raw value,
-uncorrected for fish lipid content in Parts per thousand.</li>
-<li><strong>Total_C: </strong> Total carbon in the axial muscle tissue
-sampled from a given fish in Micrograms (µg).</li>
-<li><strong>del_15N: </strong> Nitrogen stable isotope ratio in the
-axial muscle tissue sampled from a given fish in Parts per
-thousand.</li>
-<li><strong>Total_N: </strong> Total nitrogen in the axial muscle tissue
-sampled from a given fish in Micrograms (µg).</li>
+<li><strong>bia_di:</strong> A numerical vector, respondent’s biacromial
+diameter in centimeters.</li>
+<li><strong>bii_di:</strong> A numerical vector, respondent’s biiliac
+diameter (pelvic breadth) in centimeters.</li>
+<li><strong>bit_di:</strong> A numerical vector, respondent’s
+bitrochanteric diameter in centimeters.</li>
+<li><strong>che_de:</strong> A numerical vector, respondent’s chest
+depth in centimeters, measured between spine and sternum at nipple
+level, mid-expiration.</li>
+<li><strong>che_di:</strong> A numerical vector, respondent’s chest
+diameter in centimeters, measured at nipple level, mid-expiration.</li>
+<li><strong>elb_di:</strong> A numerical vector, respondent’s elbow
+diameter in centimeters, measured as sum of two elbows.</li>
+<li><strong>wri_di:</strong> A numerical vector, respondent’s wrist
+diameter in centimeters, measured as sum of two wrists.</li>
+<li><strong>kne_di:</strong> A numerical vector, respondent’s knee
+diameter in centimeters, measured as sum of two knees.</li>
+<li><strong>ank_di:</strong> A numerical vector, respondent’s ankle
+diameter in centimeters, measured as sum of two ankles.</li>
+<li><strong>sho_gi:</strong> A numerical vector, respondent’s shoulder
+girth in centimeters, measured over deltoid muscles.</li>
+<li><strong>che_gi:</strong> A numerical vector, respondent’s chest
+girth in centimeters, measured at nipple line in males and just above
+breast tissue in females, mid-expiration.</li>
+<li><strong>wai_gi:</strong> A numerical vector, respondent’s waist
+girth in centimeters, measured at the narrowest part of torso below the
+rib cage as average of contracted and relaxed position.</li>
+<li><strong>nav_gi:</strong> A numerical vector, respondent’s navel
+(abdominal) girth in centimeters, measured at umbilicus and iliac crest
+using iliac crest as a landmark.</li>
+<li><strong>hip_gi:</strong> A numerical vector, respondent’s hip girth
+in centimeters, measured at at level of bitrochanteric diameter.</li>
+<li><strong>thi_gi:</strong> A numerical vector, respondent’s thigh
+girth in centimeters, measured below gluteal fold as the average of
+right and left girths.</li>
+<li><strong>bic_gi:</strong> A numerical vector, respondent’s bicep
+girth in centimeters, measured when flexed as the average of right and
+left girths.</li>
+<li><strong>for_gi:</strong> A numerical vector, respondent’s forearm
+girth in centimeters, measured when extended, palm up as the average of
+right and left girths.</li>
+<li><strong>kne_gi:</strong> A numerical vector, respondent’s knee
+diameter in centimeters, measured as sum of two knees.</li>
+<li><strong>cal_gi:</strong> A numerical vector, respondent’s calf
+maximum girth in centimeters, measured as average of right and left
+girths.</li>
+<li><strong>ank_gi:</strong> A numerical vector, respondent’s ankle
+minimum girth in centimeters, measured as average of right and left
+girths.</li>
+<li><strong>wri_gi:</strong> A numerical vector, respondent’s wrist
+minimum girth in centimeters, measured as average of right and left
+girths.</li>
+<li><strong>age:</strong> A numerical vector, respondent’s age in
+years.</li>
+<li><strong>wgt:</strong> A numerical vector, respondent’s weight in
+kilograms.</li>
+<li><strong>hgt:</strong> A numerical vector, respondent’s height in
+centimeters.</li>
+<li><strong>Sex:</strong> A categorical vector, Male and Female.</li>
+<li><strong>AgeGroup:</strong> A factor vector with age binned into
+groups by decade.</li>
 </ul>
 </div>
 </div>
