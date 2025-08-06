@@ -1,0 +1,52 @@
+---
+title: "Teaching with Real Data Metadata"
+author: "Thomas J. Pfaff"
+output:
+  html_document:
+    theme: cerulean
+    css: G:/My Drive/Pfaff-Work/TeachingRealDatasets/style.css
+---
+Return to [Teaching with Real Data][id2]
+
+***
+***
+
+## Info
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Source:** Netflix
+
+**Authors:** Netflix  
+
+**Date:** July 17, 2025
+
+**Link:** [https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025][id]
+
+
+##### "Abstract"
+
+Today, we’re sharing our latest Engagement Report, highlighting what Netflix members watched from January through June 2025. Watchtime — or engagement — is our best indicator of member happiness. When people watch more, they stick around longer and recommend Netflix to others.
+
+This report, which captures ~99% of all viewing in the first half of 2025, shows that people watched a lot of Netflix — over 95B hours — spanning a wide range of genres and languages. It’s why we continue to invest in a variety of quality titles for various moods and tastes and work hard to make them great. 
+
+
+##### Format
+
+Data frame with 16,161 cases and the following variables:
+
+- **Title:** The title.
+- **AvailableGlobally:** Was the title available globally? Yes or no.
+- **ReleaseDate:** Data released.
+- **HoursViewed:** Total hours viewed.
+- **RuntimeMinutes:** Total run time in minutes.
+- **Views:** Total number of views.
+- **Type:** Movie or show.
+
+
+
+[id]: https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025 
+
+[id2]: https://thomas-pfaff.github.io/TeachingRealData.html
