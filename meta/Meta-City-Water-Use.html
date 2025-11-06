@@ -362,85 +362,96 @@ with Real Data</a></p>
 <hr />
 <div id="info" class="section level2">
 <h2>Info</h2>
-<p><strong>Source:</strong> Mercury Concentrations in Resident Lake Fish
-Sampled from Lake Clark National Park and Preserve in 2019 and 2020</p>
-<p><strong>Authors:</strong> Department of the Interior, National Park
-Service</p>
-<p><strong>Date:</strong> Data from 2019-2020</p>
-<p><strong>Link:</strong> <a href="https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre">https://catalog.data.gov/dataset/mercury-concentrations-in-resident-lake-fish-sampled-from-lake-clark-national-park-and-pre</a></p>
+<p><strong>Resource:</strong> Patterns and Predictors of Residential
+Indoor Water Use Across Major US Cities</p>
+<p><strong>Authors:</strong> Mohammad Yunus Naseri, Grant Bernosky,
+Peter Mayer, Landon Marston</p>
+<p><strong>Date:</strong> June 10, 2025</p>
+<p><strong>Link:</strong> <a href="https://www.hydroshare.org/resource/a1e41cd27df54ecf926443b395fd18ef/">https://www.hydroshare.org/resource/a1e41cd27df54ecf926443b395fd18ef/</a></p>
 <div id="abstract" class="section level5">
 <h5>Abstract</h5>
-<p>These data were collected as part of the Southwest Alaska Inventory
-and Monitoring Network (SWAN) freshwater contaminants protocol. The
-protocol outlines a framework for monitoring mercury (Hg) concentrations
-in resident lake fish within SWAN parks. The primary goal of this
-monitoring is to understand the spatial differences, temporal trends,
-and health ramifications of Hg contamination in resident lake fish.
-Monitoring relies on total Hg in fish axial muscle as an indicator of
-methyl Hg exposure. It targets four high-priority lakes which vary in
-size, depth, wetland cover, glacial influence, and Hg concentration.
-These lakes are located in two parks: Lake Clark National Park and
-Preserve (LACL) and Katmai National Park and Preserve (KATM). The focal
-species is lake trout (Salvelinus namaycush), a widespread, long lived,
-top predator in SWAN lakes. However, if other species are sampled as
-bycatch, they may be retained and analyzed if they represent
-species-specific data gaps in Hg concentration. Two broad types of data
-are generated from this protocol. The first type includes observations
-and measurements that are recorded while sampling and processing fish
-(e.g., length, weight, gender). The second type includes results of
-analyses performed by contract laboratories (e.g., age, total Hg). This
-particular dataset includes those two broad types of data for 49 fish
-sampled in 2019 and 2020 from 2 lakes in LACL: Lake Clark and Kijik
-Lake. Of those 49 fish, 40 were lake trout, 6 were burbot (Lota lota), 2
-were Arctic grayling (Thymallus arcticus), and 1 was Arctic char
-(Salvelinus alpinus).</p>
+<p>This resource includes city-level aggregated residential water
+consumption data from single-family households and analysis code
+accompanying the manuscript “Patterns and Predictors of Residential
+Indoor Water Use Across Major US Cities”. The dataset comprises daily
+water consumption patterns aggregated from 26,441 single-family
+households across 39 major US metropolitan statistical areas in the
+conterminous US. While the original data was collected at 5-second
+intervals using Flume’s smart water monitoring sensors at individual
+households, this public dataset provides city-level daily aggregations
+to protect privacy. The data captures both total indoor water use and
+specific end uses (e.g., shower and toilet), along with aggregated
+household characteristics (e.g., house size and value), appliance
+presence (e.g., humidifiers and reverse osmosis systems), and daily
+climate variables (temperature, precipitation), the latter obtained from
+the Parameter-elevation Regression on Independent Slopes Model (PRISM).
+Two Jupyter Notebooks are included: one implementing functional data
+analysis to identify distinct usage patterns across city clusters, and
+another executing mixed-effects random forest analysis to investigate
+the influence of household features, appliances, and weather on water
+consumption patterns.</p>
 </div>
 <div id="format" class="section level5">
 <h5>Format</h5>
-<p>Data frame with 49 cases and the following variables:</p>
+<p>Data frame with 2418 cases and the following 22 variables:</p>
 <ul>
-<li><strong>Park: </strong> National park where a given fish was
-collected.</li>
-<li><strong>Lake: </strong> Lake where a given fish was collected.</li>
-<li><strong>Sample_ID_NPS: </strong> NPS sample identification code for
-a given fish.</li>
-<li><strong>Sample_ID_USGS: </strong> USGS sample identification code
-for a given fish.</li>
-<li><strong>Species: </strong> Species common name for a given
-fish.</li>
-<li><strong>Date_Collected: </strong> Date when a given fish was
-caught.</li>
-<li><strong>Date_Received: </strong> The date received is tracked
-because some samples are occasionally sent and/or analyzed more than
-once (e.g., when they thaw during transport).</li>
-<li><strong>Date_Analyzed: </strong> Date when a given fish sample was
-analyzed by the USGS Mercury Research Lab for total Hg.</li>
-<li><strong>Latitude: </strong> Latitude of the site where a given fish
-was collected.</li>
-<li><strong>Longitude: </strong> Longitude of the site where a given
-fish was collected.</li>
-<li><strong>Length: </strong> Total length of a given fish in mm.</li>
-<li><strong>Gender: </strong> Gender of a given fish.</li>
-<li><strong>Weight: </strong> Weight of a given fish grams.</li>
-<li><strong>Age: </strong> Age of a given fish.</li>
-<li><strong>Total_Hg: </strong> Total mercury concentration in the axial
-muscle tissue sampled from a given fish in Nanograms per gram dry weight
-(ng/g, dw).</li>
-<li><strong>Methyl_Hg: </strong> Methylmercury concentration in the
-axial muscle tissue sampled from a given fish in Nanograms per gram dry
-weight (ng/g, dw).</li>
-<li><strong>Moisture: </strong> Percent moisture in the axial muscle
-tissue sampled from a given fish.</li>
-<li><strong>del_13C: </strong> Carbon stable isotope ratio in the axial
-muscle tissue sampled from a given fish. This is a raw value,
-uncorrected for fish lipid content in Parts per thousand.</li>
-<li><strong>Total_C: </strong> Total carbon in the axial muscle tissue
-sampled from a given fish in Micrograms (µg).</li>
-<li><strong>del_15N: </strong> Nitrogen stable isotope ratio in the
-axial muscle tissue sampled from a given fish in Parts per
-thousand.</li>
-<li><strong>Total_N: </strong> Total nitrogen in the axial muscle tissue
-sampled from a given fish in Micrograms (µg).</li>
+<li><strong>City:</strong> The city where the single-family houses are
+located.</li>
+<li><strong>Day :</strong> Days during the course of study. Day 1
+correspond to December 1, 2022 and Day 62 (i.e., the last day during the
+course of study) correspond to January 31, 2023. All cities have the
+same number of days.</li>
+<li><strong>Water_using_cluster:</strong> The cluster to which the city
+belongs.</li>
+<li><strong>Bathtub_prop:</strong> Proportion of single-family houses
+with reported bathtub fixture.</li>
+<li><strong>RO_system_prop:</strong> Proportion of single-family houses
+with reported reverse osmosis system.</li>
+<li><strong>Humidifier_prop :</strong> Proportion of single-family
+houses with reported humidifier appliance.</li>
+<li><strong>Evaporative_cooler_prop:</strong> Proportion of
+single-family houses with reported evaporative cooler appliance.</li>
+<li><strong>Ice_maker_prop:</strong> Proportion of single-family houses
+with reported ice maker appliance.</li>
+<li><strong>Year_built_mean:</strong> Mean average of years when the
+single-family houses were built. Year 1 corresponds to the year
+2022.</li>
+<li><strong>Home_value_per_sqft_prctl_mean:</strong> Mean average of
+single-family houses values (in thousands of dollars) per square feet
+turned into percentiles.</li>
+<li><strong>Home_size_prctl_mean:</strong> Mean average of single-family
+houses sizes (in square feet) turned into percentiles.</li>
+<li><strong>City_daily_temp_mean:</strong> City-level mean avearge daily
+temperature in degrees celsius.</li>
+<li><strong>City_daily_ppt_mean:</strong> City-level mean avearge daily
+precipitation in milimeters.</li>
+<li><strong>Daily_vol_cw_pc_mean:</strong> City-level daily mean average
+of water volume in liters per capita consumed for clother washwer end
+use.</li>
+<li><strong>Daily_vol_dw_pc_mean:</strong> City-level daily mean average
+of water volume in liters per capita consumed for dishwashwer end
+use</li>
+<li><strong>Daily_vol_faucet_pc_mean:</strong> City-level daily mean
+average of water volume in liters per capita consumed for faucet end
+use.</li>
+<li><strong>Daily_vol_indoor_pc_mean:</strong> City-level average of
+water volume in liters per capita consumed for miscellaneous end use
+(any recroded use not classified clothes washwer, dishwasher, faucet,
+leak, shower, toilet, and softener).</li>
+<li><strong>Daily_vol_leak_pc_mean:</strong> City-level daily mean
+average of water volume in liters per capita recorded for leak
+events.</li>
+<li><strong>Daily_vol_shower_pc_mean:</strong> City-level daily mean
+average of water volume in liters per capita consumed for shower end
+use.</li>
+<li><strong>Daily_vol_soft_pc_mean:</strong> City-level daily mean
+average of water volume in liters per capita consumed for softener end
+use.</li>
+<li><strong>Daily_vol_toilet_pc_mean:</strong> City-level daily mean
+average of water volume in liters per capita consumed for toilet end
+use.</li>
+<li><strong>Daily_total_vol_pc_mean:</strong> City-level daily mean
+average of total water volume in liters per capita consumed.</li>
 </ul>
 </div>
 </div>
