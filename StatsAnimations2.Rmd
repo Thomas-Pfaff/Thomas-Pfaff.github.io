@@ -1,0 +1,170 @@
+---
+title: "Probability & Statistics Animations Page 2"
+author: "Thomas J. Pfaff"
+output:
+  html_document:
+    theme: cerulean
+    css: G:/My Drive/Pfaff-Work/TeachingRealDatasets/style.css
+---
+  
+<br>
+
+***
+
+This page contains a collection of animations releated to probability and statistical ideas. The Full Size linke below each will open a full size version of the animations. The BbD post link below each animation will open a post I wrote on my substack <a href="https://briefedbydata.substack.com/" target="_blank">Briefed by Data</a> related to the animation. In some cases the post will include R code to create the animation.
+
+
+Return to [Teaching with Real Data][id2]
+
+Return to [GitHub Home][id]
+
+Go to [Animations Page 1][id3]
+
+***
+***
+
+<br>
+
+:::: {style="display: flex;"}
+
+
+
+::: {.column width="33%" padding="50px"}
+
+#### Regression Residuals
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '125px'}
+knitr::include_graphics("RegResidAnimate.gif")
+```
+
+- [Full Size Image](https://thomas-pfaff.github.io/ani/RegResidAnimate.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/regression-residuals-issues){target="_blank"}
+
+<br>
+
+#### ANOVA
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '225px'}
+knitr::include_graphics("ANOVA.gif")
+```
+
+- [Full Size Image](https://thomas-pfaff.github.io/ani/ANOVA.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/anova-animation){target="_blank"}
+
+
+<br>
+
+#### Shifting a Normal
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '200px'}
+knitr::include_graphics("NormalShift.gif")
+```
+
+- [Full Size Image](https://thomas-pfaff.github.io/ani/NormalShift.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/normal-density-tail-differences){target="_blank"}
+
+::: 
+
+<!-- new column -->
+
+::: {.column width="33%" padding="50px"}
+
+#### Regression Leverage
+
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '250px'}
+knitr::include_graphics("RegressionLeverage.gif")
+```
+
+- [Full Size Image](https://thomas-pfaff.github.io/ani/RegressionLeverage.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/regression-leverage-and-influence-f33){target="_blank"}
+
+<br>
+
+
+#### Sample Max
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '250px'}
+knitr::include_graphics("SameplMax.gif")
+```
+
+- [Full Size Image](https://thomas-pfaff.github.io/ani/SameplMax.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/the-distribution-of-the-sample-max){target="_blank"}
+
+
+<br>
+
+
+#### Percentiles in Normal
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '250px'}
+knitr::include_graphics("NormalPercentile.gif")
+```
+
+- [Full Size Image](https://thomas-pfaff.github.io/ani/NormalPercentile.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/the-normal-density-and-percentiles){target="_blank"}
+
+
+
+::: 
+
+
+
+<!-- new column -->
+
+::: {.column width="33%" padding="50px"}
+
+#### Regression Leverage 2
+
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '250px'}
+knitr::include_graphics("RegressionLeverage2.gif")
+```
+
+- [Full
+Size Image](https://thomas-pfaff.github.io/ani/RegressionLeverage2.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/regression-leverage-and-influence-f33){target="_blank"}
+
+<br>
+
+
+#### Central Limit Theorem
+
+
+
+```{r, echo=FALSE, fig.cap="", out.width = '200px'}
+knitr::include_graphics("CLT-2b.gif")
+```
+
+- [Full
+Size Image](https://thomas-pfaff.github.io/ani/CLT-2b.gif){target="_blank"}
+
+- [BbD Post](https://briefedbydata.substack.com/p/a-central-limit-theorem-animation){target="_blank"}
+
+
+::: 
+
+
+::::
+
+
+
+[id]: https://thomas-pfaff.github.io/
+
+[id2]: https://thomas-pfaff.github.io/TeachingRealData.html
+
+[id3]: https://thomas-pfaff.github.io/StatsAnimations.html
