@@ -1,0 +1,31 @@
+Age Group,Rank,Cause Category,Deaths,Group
+35-60,1,Malignant Neoplasms,94749,All
+35-60,2,Unintentional Injury,89493,All
+35-60,3,Heart Disease,87307,All
+35-60,4,Covid-19,25763,All
+35-60,5,Liver Disease,24315,All
+35-60,6,Suicide,20888,All
+35-60,7,Diabetes Mellitus,19237,All
+35-60,8,Cerebrovascular,14717,All
+35-60,9,Chronic Low. Respiratory Disease,10984,All
+35-60,10,Homicide,8692,All
+35-60,1,Unintentional Injury,64892,Male
+35-60,2,Heart Disease,60798,Male
+35-60,3,Malignant Neoplasms,47005,Male
+35-60,4,Suicide,16235,Male
+35-60,5,Liver Disease,15630,Male
+35-60,6,Covid-19,15230,Male
+35-60,7,Diabetes Mellitus,12393,Male
+35-60,8,Cerebrovascular,8587,Male
+35-60,9,Homicide,6954,Male
+35-60,10,Chronic Low. Respiratory Disease,5210,Male
+35-60,1,Malignant Neoplasms,47744,Female
+35-60,2,Heart Disease,26509,Female
+35-60,3,Unintentional Injury,24601,Female
+35-60,4,Covid-19,10533,Female
+35-60,5,Liver Disease,8685,Female
+35-60,6,Diabetes Mellitus,6844,Female
+35-60,7,Cerebrovascular,6130,Female
+35-60,8,Chronic Low. Respiratory Disease,5774,Female
+35-60,9,Suicide,4653,Female
+35-60,13,Homicide,1738,Female
